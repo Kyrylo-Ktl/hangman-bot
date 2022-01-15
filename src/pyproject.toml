@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hangman-bot"
+version = "0.1.0"
+description = ""
+authors = ["Kyrylo-Ktl <kyrylo.ktl@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+aiogram = "^2.18"
+environs = "^9.4.0"
+flake8 = "^4.0.1"
+flake8-import-order = "^0.18.1"
+flake8-print = "^4.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
